@@ -1,0 +1,96 @@
+body {
+  margin: 0;
+}
+a {
+  text-decoration: none;
+  color: black;
+}
+ul {
+  list-style-type: none;
+}
+img {
+  object-fit: cover;
+}
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  position: sticky;
+  top: 0;
+  background-color: white;
+  padding: 10px;
+  z-index: 99;
+}
+.navlinks {
+  display: flex;
+}
+.navlinks a {
+  margin: 0 15px;
+}
+.button {
+  color: white;
+  background-color: rgb(94, 90, 218);
+  padding: 10px 20px;
+  border-radius: 5px;
+  transition: background-color 0.3s;
+}
+.button:hover {
+  background-color: rgb(35, 27, 154);
+}
+.hero {
+  position: relative;
+}
+.hero img {
+  width: 100%;
+  height: 500px;
+}
+.hero .button {
+  position: absolute;
+  bottom: 20px;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+.info-container {
+  display: flex;
+  align-items: center;
+}
+.info-image {
+  padding: 70px;
+  max-width: 700px;
+  margin-right: 70px;
+}
+.info-text {
+  flex: 1;
+  padding: 100px;
+}
+
+.recommendations {
+  text-align: center;
+  margin-top: 20px;
+}
+.student {
+  margin: 20px;
+  display: inline-block;
+}
+.student-image {
+  width: 300px;
+  height: 300px;
+  border-radius: 5%;
+}
+.application-open {
+  text-align: center;
+  padding: 50px 0;
+  font-size: 2em;
+}
+.footer {
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
+}
+.footer-column {
+  flex: 1;
+  text-align: center;
+}
+.large-logo svg {
+  height: 60px;
+  width: 60px;
+}

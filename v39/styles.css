@@ -1,0 +1,36 @@
+body {
+  display: flex;
+  justify-content: center; /* 将容器居中 */
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  background-color: #f0f0f0;
+}
+
+.container 
+  display: flex;
+  flex-direction: column; /* 设置方向为垂直 */
+  align-items: center;
+  border: 3px solid black; /* 添加边框 */
+  padding: 10px 20px; /* 上下内边距 */
+  background-color: #fff; /* 背景色 */
+}
+
+.light {
+  width: 100px; /* 宽度 */
+  height: 100px; /* 高度 */
+  margin: 10px 0; /* 上下外边距 */
+  border: 5px solid #555; /* 边框 */
+}
+
+.red {
+  background-color: red; /* 红色背景 */
+}
+
+.yellow {
+  background-color: yellow; /* 黄色背景 */
+}
+
+.green {
+  background-color: green; /* 绿色背景 */
+}
