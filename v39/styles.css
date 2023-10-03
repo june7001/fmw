@@ -7,7 +7,7 @@ body {
   background-color: #f0f0f0;
 }
 
-.container 
+.container {
   display: flex;
   flex-direction: column; /* 设置方向为垂直 */
   align-items: center;
