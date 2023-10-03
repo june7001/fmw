@@ -78,7 +78,7 @@ img {
 }
 .application-open {
   text-align: center;
-  padding: 50px 0;
+  padding: 190px 0;
   font-size: 2em;
 }
 .footer {
@@ -89,8 +89,4 @@ img {
 .footer-column {
   flex: 1;
   text-align: center;
-}
-.large-logo svg {
-  height: 60px;
-  width: 60px;
 }
